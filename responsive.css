@@ -1,0 +1,165 @@
+@media (max-width: 900px) {
+    .hero {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .subHero {
+        flex-direction: column;
+    }
+
+    .first, .second {
+        width: 100%;
+
+    }
+
+    .main {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+
+    .main .mainHeading {
+        padding-top: 0px;
+    }
+
+    .finance {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .finance p {
+        width: 100%;
+    }
+
+    ul li {
+
+        display: none;
+
+
+    }
+
+    .header img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .secondCard .secondPrice {
+        margin-right: 100px;
+    }
+
+    .secondCard .firstPrice {
+        padding-right: 70px;
+    }
+
+    .subHero {
+        padding-bottom: 30px;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .subHero {
+        flex-direction: column;
+    }
+
+    .first, .second {
+        width: 100%;
+
+    }
+
+    .main {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+
+    .main .mainHeading {
+        padding-top: 0px;
+    }
+
+    .finance {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .finance p {
+        width: 100%;
+    }
+
+    ul li {
+
+        display: none;
+
+
+    }
+
+    .header img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .subHero {
+        padding-bottom: 30px;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .secondCard .firstPrice .priceCourse {
+        font-size: 20px;
+
+    }
+
+    .secondCard .secondPrice .priceCourse {
+        font-size: 20px;
+
+    }
+
+
+    .secondCard .secondPrice {
+        margin-right: 20px;
+    }
+
+    .secondCard {
+        padding-right: 0px;
+        overflow: hidden;
+
+        padding-left: 0px;
+    }
+
+    .secondCard .firstPrice{
+        padding-right: 0px;
+    }
+}

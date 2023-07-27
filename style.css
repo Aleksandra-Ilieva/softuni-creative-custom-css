@@ -1,0 +1,398 @@
+/*#54546d - lilavo za bg
+#9a5dc6 - lilavo buton kandidastwai
+#41ce76 - zeleno purva karta
+#557fa6 - sinio vtora karta
+#6957c1 -> treata karta
+
+#54546d- zaglavie na karta
+*/
+/*header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+body{
+    height: 100vh;
+}
+.header {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header img {
+    width: 200px;
+    padding: 18px 20px;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    padding: 18px 20px;
+}
+
+/* Hero*/
+
+.hero {
+    position: relative;
+    height: 500px;
+    margin-bottom: 150px;
+    background-color: #54546d;
+}
+
+.hero img {
+    position: absolute;
+    margin-top: 10px;
+
+
+    left: -67px;
+
+
+}
+
+.hero h4 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    font-family: Montserrat, serif;
+}
+
+.subHero {
+
+    gap: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 60px;
+
+
+
+
+}
+
+.first {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 36%;
+
+
+
+}
+
+.first .firstH2 {
+    color: #54546d;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding: 12px 32px;
+    margin-top: 23px;
+
+
+
+}
+
+.first .firstH3{
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 60px;
+    padding: 2px 32px;
+    font-size: 28px;
+}
+ .btnFirst{
+    all: unset;
+     background-color:#9a5dc6 ;
+     color: white;
+     padding: 12px 22px;
+     border-radius:26px;
+     font-size: 22px;
+     margin-bottom: 33px;
+     width: 35%;
+     text-align: center;
+
+}
+
+
+
+.priceInfo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,128,51);
+    background: linear-gradient(135deg, rgba(2,128,51,1) 0%, rgba(77,214,129,1) 56%);
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+
+}
+
+.priceInfo h2{
+    font-size: 28px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.priceInfo h3{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* second card*/
+.second{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    border-radius: 8px;
+    width: 36%;
+
+}
+.second .secondH2{
+    color: #54546d;
+    font-family: Montserrat, serif;
+    font-weight: 800;
+    font-size: 38px;
+    padding: 12px 32px;
+    margin-top: 23px;
+
+}
+
+.second > p{
+    color: gray;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.secondCard{
+     background: rgb(77,109,139);
+    background: linear-gradient(135deg, rgba(77,109,139,1) 0%, rgba(97,152,204,1) 56%);
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    gap: 30px;
+
+    padding-right: 60px;
+    padding-left: 60px ;
+
+}
+
+.secondCard .secondPrice{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+}
+
+.secondCard .firstPrice{
+    text-align: center;
+    color: white;
+    border-right: 2px solid white;
+    padding-right: 30px;
+}
+
+.secondCard .firstPrice .priceCourse{
+    font-size: 40px;
+    font-weight: 500;
+}
+.secondCard .firstPrice .infoForCourse{
+    font-size: 20px;
+}
+
+.secondCard .secondPrice .priceCourse{
+    font-size: 40px;
+    font-weight: 500;
+}
+.secondCard .secondPrice .infoForCourse{
+    font-size: 20px;
+}
+.secondCard .secondPrice{
+    color: white;
+}
+
+
+/*third Crad*/
+
+.secondCard.third{
+    background: rgb(77,58,168);
+    background: linear-gradient(135deg, rgba(77,58,168,1) 0%, rgba(137,122,223,1) 56%);
+}
+
+
+/*main section*/
+
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ .main .mainHeading{
+     color:#54546d;
+     padding-top: 80px;
+     font-size: 30px;
+     padding-bottom: 30px;
+     font-weight: 600;
+     font-family: Montserrat, serif;
+ }
+
+ .main{
+
+ }
+
+.main .mainP{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    overflow: hidden;
+
+}
+
+
+td{
+    font-size: 23px;
+    color: gray;
+
+}
+
+tr:nth-child(even) {
+    background-color:#f8f8f8;
+}
+
+tr:nth-child(odd) {
+    background-color:#e6e6e6;
+}
+
+td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+td:nth-child(1){
+    width: 800px;
+    padding-left: 18px;
+
+}
+td:nth-child(3){
+    width: 200px;
+
+}
+
+td:nth-child(2){
+    width: 200px;
+
+}
+
+
+.finance{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.finance h2{
+    font-size: 32px;
+    margin-top: 50px;
+    color:#54546d;
+    font-family: Montserrat, serif;
+    margin-bottom: 30px;
+}
+
+.finance p{
+    color: gray;
+
+    width: 80%;
+}
+.finance .firstParagraf{
+    padding-bottom: 30px;
+}
+.finance img{
+    padding-top: 60px;
+    width: 100%;
+    margin-right: 200px;
+}
+
+
+footer{
+    color: darkgray;
+    background-color: #54546d;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* more styles from me*/
+
+ul li{
+    all: unset;
+    background-color:#9a5dc6 ;
+    color: white;
+    padding: 12px 22px;
+    border-radius:26px;
+    font-size: 14px;
+
+    text-align: center;
+}
+
+ul li:hover{
+    background: rgb(154,93,198);
+    background: linear-gradient(135deg, rgba(154,93,198,1) 21%, rgba(255,172,227,1) 64%);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+    cursor: pointer;
+
+}
+td:nth-child(2):hover{
+    transform: scale(1.2);
+    transition: 300ms;
+
+}
+td:nth-child(3):hover{
+    transform: scale(1.2);
+    transition: 300ms;
+
+}
+
+.btnFirst:hover{
+    content: "";
+    filter: brightness(70%);
+
+}
+
+
+
+
+
+
